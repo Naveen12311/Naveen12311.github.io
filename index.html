@@ -1,312 +1,523 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html class="no-js" lang="en">
 <head>
-  <title>Portifolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/demo.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
 
-body {
-    font-family: 'Amatic SC';  
-    font-size: 2em;
-}
-    
+   <meta charset="utf-8">
+	<title>Naveen | Portfolio Website | Developer</title>
+	<meta name="description" content="Naveen is a Passionate Developer 3.4 years of Experience">  
+	<meta name="author" content="Naveen">
 
-  .navbar {
-      font-family: Amatic SC;
-      margin-bottom: 0;
-      background-color: #2d2d30;
-      border: 0;
-      font-size: 11px !important;
-      letter-spacing: 4px;
-      opacity: 0.9;
-      
-  }
-  .navbar li a, .navbar .navbar-brand { 
-      color: #d5d5d5 !important;
-      font-size: 2em;
-  }
-  .navbar-nav li a:hover {
-      color: #fff !important;
-      
-  }
-  .navbar-nav li.active a {
-      color: #fff !important;
-      background-color: #29292c !important;
-     
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-  }
+    <meta name="keywords" content="ali, solanki, Naveen, mumbai, developer, web developer, android developer"/>
+    <meta name="subject" content="Naveen Portfolio">
+    <meta name="copyright"content="Naveen">
+    <meta name="language" content="EN">
+    <meta name="robots" content="index, follow" />
+    <meta name="revised" content="Thursday, December 12th, 2019, 1:04 am" />
+    <meta name="abstract" content="Naveen">
+    <meta name="topic" content="Naveen portfolio">
+    <meta name="summary" content="This is Naveen's Portfolio Website who is a Developer and a YouTuber.">
+    <meta name="Classification" content="Business">
+    <meta name="author" content="Naveen, naviii.navee@gmail.com">
+    <meta name="designer" content="Naveen">
+    <meta name="copyright" content="Naveen">
+    <meta name="reply-to" content="naviii.navee@gmail.com">
+    <meta name="owner" content="Naveen">
+    <meta name="url" content="https://Naveen12311.github.io">
+    <meta name="identifier-URL" content="https://Naveen12311.github.io">
+    <meta name="directory" content="submission">
+    <meta name="category" content="Business | Portfolio">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="7 days">
+    <meta http-equiv="Expires" content="0">
 
-.word{
-  display:block;
-  text-align:justify;
-  font-family: "Amatic SC";
-  line-height:0.8;
-  text-transform:uppercase;
-  letter-spacing:0px;
-}
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-.word1, .word2 {color:#9BC5DE}
-.word3, .word4 {color:#90B3C9}
-.word5, .word6{color:#809BB0}
-.word7 {color:#6B7B8A}
-.word8, .word9{color:#8B8091}
-.word10, .word11{color:#B68FA2}
 
-.word1{font-size:8vh}
-.word2{font-size:6vh}
-.word3{font-size:6.9vh}
-.word4{font-size:5.9vh}
-.word5{font-size:3.9vh}
-.word6{font-size:5.9vh}
-.word7{font-size:2.9vh;}
-.word8{font-size:4.8vh}
-.word9,.word11{font-size:4.9vh;}
-.word10{font-size:4.9vh}
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
 
-#mycarousel{
-  width: 100%;
-}
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border:0px;
-    border-bottom:3px solid #ccc;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    outline: none;
-}
 
-input[type=text]:focus {
-    border: 3px solid #555;
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-153937526-1');
+    </script>
 
-}
-
-  </style>
-
-  <script>
-$(document).ready(function(){
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
-</script>
+	<link rel="icon" type="image/png" href="favicon.png">
 
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <!--nav bar starts here-->
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">WELCOME</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#skills">SKILLS</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<body id="top">
 
-<!--carousel section starts here-->
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0"></li>
-    <li data-target="#myCarousel" data-slide-to="1" ></li>
-    <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-  </ul>
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="">
 
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="img/pic3.jpg" alt="Chania">
-    </div>
+   		<div class="bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
-    <div class="item">
-      <img src="img/pic1.jpg" alt="Chania">
-    </div>
+	   		<div class="logo">
+		         <a href="index.html">Naveen</a>
+		      </div>		      
 
-    <div class="item">
-      <img src="img/pic2.png" alt="Flower">
-    </div>
-  </div>
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
 
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-    </div>
-    <div style="height: 100px; width: 100px;"></div>
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
 
-    <!--skills section starts here-->
-    <div id="skills">
-   <div class="container">
-<div class="jumbotron">
-<h2>My Skills</h2>
-</div>
-<div class="row">
-<div class="col-sm-9">
-<img src="img/picc.png" style="width: 100%;">
-</div>
-</div>
-</div>
-</div>
-<div style="height: 100px; width: 100px;"></div>
-   <div class="container">
-<div class="jumbotron">
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+				   <h5>Hello, World.</h5>
+					<h1>I<span style="color: #CC005F;">'</span>m Naveen<span style="color: #CC005F;">.</span></h1>
+
+                    <p class="intro-position">
+                        <span>Developer</span>
+                    </p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div>
+
+        <ul class="intro-social">
+            <li><a href="https://www.linkedin.com/in/naveen-gummadi-8b2b17112/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/naveen12311"><i class="fa fa-github"></i></a></li>
+        </ul>    	
+
+   </section>
+
+
+   <section id="about">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
   
-  <h2>Myself</h2>
+            <div style="padding-bottom: 10rem; height: 400px;">
+                <img src="code.jpg">
+            </div><br>
 
-</div>
-</div>
+   			<h5>About</h5>
+   			<h2>Let me introduce myself.</h2>
 
-<!--About us section starts here-->
-<div id="about">
-<div class="container">
-  <br>
+   			<div class="intro-info">
 
-  <div class="row">
-    <div class="col-sm-5">
-  <div class="word_split wrapper"><br>
-  <span class="word word1"> Naveen </span><br>
-  <span class="word word2">From</span><br>
-  <span class="word word3">Andhra PradesH</span><br>
-  <span class="word word4">Details</span><br>
-  <span class="word word5">B.Tech</span><br>
-  <span class="word word6">Computer Science</span><br>
-  <span class="word word7">naviii.navee@gmail.com</span><br>
-  <span class="word word8">7973069967</span><br>
-  <span class="word word9">Career</span><br>
-  <span class="word word10">WeB</span><br>
-  <span class="word word11">Development</span>
- 
-    </div>
-   </div>
-   <br>
-   <div class="col-sm-5">
-    <div id="contact">
-     <form>
-  <label for="name">Name</label>
-  <input type="text" id="name" name="name" >
-  <label for="phone">Phone</label>
-  <input type="text" id="phone" name="phone">
-  <label for="email">Email</label>
-  <input type="text" id="email" name="email"><br>
-  <button type="button" class="btn btn-primary btn-lg">Submit</button>
+   				<img src="images/profile-pic.jpg" alt="Naveen Picture">
+
+   				<p class="lead">"Developer with a <font color="#FF0077">million</font> dreams."</p>
+   			</div>   			
+
+   		</div>   		
+   	</div>
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+                <p>One trait that I feel makes me unique is my ability to get along with all types of people and personalities.
+					I’ve worked as software engineer, all the way up to managing large enterprise projects in my last job. 
+					I can relate to a software development just as easily as with my work experience. As i also worked as Project lead with emphasizes of communication skills and techinal skills, 
+				   and I’ve read about the variety of clients <b>(My Uniqueness)</b></p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Gummadi Naveen</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>OCT, 15 1996</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span><a href="#">https://Naveen12311.github.io</a></span>
+   				</li>
+                    <li>
+                        <strong>Email:</strong>
+                        <span>naviii.navee@gmail.com</span>
+                    </li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+                <p>
+                    <strong>Languages:</strong><br />
+                    <b>English :</b><br /> Read, Write, Speak : <i>Native</i><br />
+                    <b>Hindi :</b><br /> Read, Write, Speak : <i>Native</i><br />
+                    <b>Telugu :</b><br /> Read, Write, Speak : <i>Native</i><br />
+                    <b>Spanish :</b><br /> Read, Write, Speak : <i>Proficient</i><br />
+
+                </p>
+
+
+                <ul class="skill-bars">
+                    <li>
+                        <strong>Nodejs</strong>
+                    </li>
+                    <li>
+
+                        <strong>Firebase</strong>
+                    </li>
+                    <li>
+
+                        <strong>C++</strong>
+                    </li>
+                    <li>
+
+                        <strong>HTML, CSS , Bootstrap</strong>
+                    </li>
+					<li>
+				
+				<strong>JavaScript & JQuery</strong>
+				</li>
+		    <li>
+
+                        <strong>React</strong>
+                    </li>
+
+                </ul> 	
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="Naveenen.pdf" title="Download CV (English)" class="button button-primary">Download CV (English)</a>
+   			<a href="Naveensp.pdf" title="Download CV (Spanish)" class="button button-primary">Download CV (Spanish)</a>
+   		</div>   		
+   	</div>
+
+   </section>   
+
+
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+            <h2>More of my Credentials</h2>
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Experience</h2>
+
+   		</div> 
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Web Developer</h3>
+	   					<p>Feb 2019 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a href="#">Jivox / VenX / Paragon / HogarthWW </a></h4>
+	   					<p>One trait that I feel makes me unique is my ability to get along with all types of people and personalities.
+							 I’ve worked as software engineer, all the way up to managing large enterprise projects in my last job. 
+							 I can relate to a software development just as easily as with my work experience. As i also worked as Project lead with emphasizes of communication skills and techinal skills, 
+							and I’ve read about the variety of clients <b>(My Uniqueness)</b></p>
+	   				</div>
+
+	   			</div> 
+                
+                
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Masters in Systems Engineering</h3>
+	   					<p>2022 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4><a href="#">Universidad Technolgia Nacional</a></h4>
+	   					<p>Persuing My Masters degree in Systems Engineering to get a strong hold of 
+							techinal management and also hardware management
+						</p>
+	   				</div>
+
+	   			</div>
+
+   			</div> 			
+
+   		</div> 
+   		
+   	</div> 
+		
+	</section>
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h2>Check Out Some of My Projects at github.com/naveen12311</h2>
+
+   			<p class="lead">These Projects have helped me develop my Skills and understand the Industry better.</p>
+
+   		</div>   		
+   	</div> 
+
+		
+	</section> 
+
+	
+	
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-3 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							80
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div>
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							150
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+
+					</div> 
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							720
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+
+					</div> 
+
+				</div> 
+
+			</div>
+		</div> 
+
+	</section>
+
+
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h2>I'd Love To Hear From You.</h2>
+
+   			<p class="lead">Feel free to Contact Me:</p>
+
+   		</div> 
+   	</div> 
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+<form name="form" id="contactForm" method="POST" action="#">
+      			<fieldset>
+                    <div class="form-field">
+ 				<input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                    </div>
+                    <div class="form-field">
+				<input name="_replyto" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	                </div>
+                    <div class="form-field">
+				<input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="">
+	                </div>                       
+                    <div class="form-field">
+	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	                </div>                      
+                    <div class="form-field">
+                        <button class="submitform" name="submit">Submit</button>
+                        <div id="submit-loader">
+			    <div class="text-loader">Sending...</div>                             
+       				  <div class="s-loader">
+					<div class="bounce1"></div>
+					<div class="bounce2"></div>
+					<div class="bounce3"></div>
+				    </div>
+			</div>
+                    </div>
+
+	</fieldset>
 </form>
-</div>
-   </div>
-</div>
-</div>
-</div>
 
-<!--footer starts here-->
-<footer id="myPage">
-<footer class="footer-distributed">
+   
+<div id="message-warning">            	
+            </div> 
+         
+<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div> 
 
-      <div class="footer-left">
+         </div>
+   		
+   	</div> 
 
-        <h3>Nave<span>eN</span></h3>
+   	<div class="row contact-info">
 
-        <p class="footer-links">
-          <a href="index.html">Home</a>
+   		<div class="col-four tab-full">
 
-          <a href="#about">About</a>
-          ·
-          <a href="#skills">Skills</a>
-          ·
-          <a href="#contact">Contact</a>
-        </p>
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
 
-        <p class="footer-company-name">Myself &copy; 2017</p>
-      </div>
+   			<h5>Where to find me</h5>
 
-      <div class="footer-center">
+   			<p>
+            Buenos Aires, Argentina<br>
+            </p>
 
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>LOVELY PROFFESIONAL UNIVERSITY</span>JALANDHAR,PUNJAB</p>
-        </div>
+   		</div>
 
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>7973069967</p>
-        </div>
+   		<div class="col-four tab-full collapse">
 
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:support@company.com">naviii.navee@gmail.com</a></p>
-        </div>
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
 
-      </div>
+   			<h5>Email Me At</h5>
 
-      <div class="footer-right">
+   			<p>naviii.navee@gmail.com<br>		     
+			</p>
 
-        <p class="footer-company-about">
-          <span>About Me</span>
-          Im Confident And skilled. TRY ME!!
-        </p>
+   		</div>
 
-        <div class="footer-icons">
+   		<div class="col-four tab-full">
 
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
 
-        </div>
+   			<h5>Call Me At</h5>
 
-      </div>
+			<p>Phone: +541138668349 (Naveen)
+			</p>
+   		</div>
+   		
+   	</div> 
+		
+	</section> 
 
-    </footer>
-  </footer>
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+                <ul class="footer-social">
+                    <li><a href="https://www.linkedin.com/in/naveen-gummadi-8b2b17112/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/naveen12311"><i class="fa fa-github"></i></a></li>
+                </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright 2017 </span> 
+		        	<span>Design by <a href="https://www.linkedin.com/in/naveen-gummadi-8b2b17112/">Naveen</a></span>	         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		    </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+   
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
+
 </html>
